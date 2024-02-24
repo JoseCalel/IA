@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#questionForm {
+    margin-bottom: 20px;
+}
+
+#questionInput {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+#answerDisplay {
+    border: 1px solid #ccc;
+    padding: 10px;
+}

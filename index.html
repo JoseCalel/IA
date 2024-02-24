@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta y Respuesta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Consulta y Respuesta</h1>
+    <div id="questionForm">
+        <input type="text" id="questionInput" placeholder="Haz una pregunta...">
+        <button onclick="sendQuestion()">Enviar</button>
+    </div>
+    <div id="answerDisplay"></div>
+
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1072.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
